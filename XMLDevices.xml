@@ -1,0 +1,1292 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DEVICES>
+  <CONTROLLER_PRM index ="1">5.2.205.45.1.1;801</CONTROLLER_PRM>
+  <CONTROLLER_PRM index ="2">5.9.150.235.1.1;801</CONTROLLER_PRM>
+  <CONTROLLER_PRM index ="3">5.9.155.49.1.1;801</CONTROLLER_PRM>
+  <DEFAULT_FLOOR>1</DEFAULT_FLOOR>
+  <HEIGHT>66</HEIGHT>
+  <SLIDE_WIDTH>316</SLIDE_WIDTH>
+  <TOGGLE_WIDTH>127</TOGGLE_WIDTH>
+  <SCENE_WIDTH>299</SCENE_WIDTH>
+  <BLIND_WIDTH>241</BLIND_WIDTH>
+  <MARGIN_TEXT>0</MARGIN_TEXT>
+  <MARGIN_SYMBOL>0</MARGIN_SYMBOL>
+  <INITIAL_MARGIN_TOP_TEXT>18</INITIAL_MARGIN_TOP_TEXT>
+  <INITIAL_MARGIN_TOP_SYMBOL>0</INITIAL_MARGIN_TOP_SYMBOL>
+  <MARGIN_COLUMN>80</MARGIN_COLUMN>
+  <FONT_SIZE>14</FONT_SIZE>
+  <FONT_COLOR>1</FONT_COLOR>
+  <TEXT_WIDTH>320</TEXT_WIDTH>
+  <TEXT_HEIGHT>25</TEXT_HEIGHT>
+  <!-- AV :: Begin-->
+  <AV_SOURCE_ID>110;Media Server</AV_SOURCE_ID>
+  <AV_SOURCE_ID>111;DU TV 1</AV_SOURCE_ID>
+  <AV_SOURCE_ID>112;DU TV 2</AV_SOURCE_ID>
+  <AV_SOURCE_ID>113;DVD</AV_SOURCE_ID>
+  <!-- AV :: END-->
+  <LCS_SERVER>192.168.1.50;4515</LCS_SERVER>
+  <!-- GLOBAL :: Begin-->
+  <GLOBAL_LIGHTS_DESCRIPTION>All Lights</GLOBAL_LIGHTS_DESCRIPTION>
+  <GLOBAL_BLINDS_DESCRIPTION>All Blinds</GLOBAL_BLINDS_DESCRIPTION>
+  <GLOBAL_AC_DESCRIPTION>All AC Units</GLOBAL_AC_DESCRIPTION>
+  <GLOBAL_FAHU_DESCRIPTION>Control FAHU</GLOBAL_FAHU_DESCRIPTION>
+  <GLOBAL_MSENSOR_DESCRIPTION>All Motion Sensor</GLOBAL_MSENSOR_DESCRIPTION>
+  <!-- GLOBAL :: END-->
+  <ZONES>
+    <ZONE Index="0">
+      <ZONE_TAG>0</ZONE_TAG>
+      <ZONE_SERVER>7</ZONE_SERVER>
+      <ZONE_AC_PRM>5.2.205.45.1.1;801;.aOutputDevices[23];.aADS_Input[37];.aADS_Input[38]</ZONE_AC_PRM>
+      <AUDIO_ZONE_ID>93</AUDIO_ZONE_ID>
+      <FLOOR>0</FLOOR>
+      <DEVICES>
+        <DEVICE>
+          <TAG>0</TAG>
+          <PARAMETERS>0;.aADS_AnalogInterface[1];.aOutputDevices[1]</PARAMETERS>
+          <TYPE>1</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Downlight</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>1</TAG>
+          <PARAMETERS>0;.aADS_Input[17];.aADS_Input[18];.aOutputDevices[13]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Table</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>2</TAG>
+          <PARAMETERS></PARAMETERS>
+          <TYPE>4</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Scenes</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+      </DEVICES>
+      <ZONE_DESCRIPTION>Lounge Area</ZONE_DESCRIPTION>
+    </ZONE>
+    <ZONE Index="1">
+      <ZONE_TAG>1</ZONE_TAG>
+      <ZONE_SERVER>8</ZONE_SERVER>
+      <ZONE_AC_PRM>5.2.205.45.1.1;801;.aOutputDevices[24];.aADS_Input[39];.aADS_Input[40]</ZONE_AC_PRM>
+      <FLOOR>0</FLOOR>
+      <DEVICES>
+        <DEVICE>
+          <TAG>0</TAG>
+          <PARAMETERS>0;.aADS_AnalogInterface[2];.aOutputDevices[2]</PARAMETERS>
+          <TYPE>1</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Downlight</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>1</TAG>
+          <PARAMETERS> 0;.aADS_Input[19];.aADS_Input[20];.aOutputDevices[14]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Cove</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>2</TAG>
+          <PARAMETERS></PARAMETERS>
+          <TYPE>4</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Scenes</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+      </DEVICES>
+      <ZONE_DESCRIPTION>Corridor</ZONE_DESCRIPTION>
+    </ZONE>
+    <ZONE Index="2">
+      <ZONE_TAG>2</ZONE_TAG>
+      <ZONE_SERVER>11;12</ZONE_SERVER>
+      <ZONE_AC_PRM>5.2.205.45.1.1;801;.aOutputDevices[22];.aADS_Input[35];.aADS_Input[36]</ZONE_AC_PRM>
+      <AUDIO_ZONE_ID>92</AUDIO_ZONE_ID>
+      <FLOOR>0</FLOOR>
+      <DEVICES>
+        <DEVICE>
+          <TAG>0</TAG>
+          <PARAMETERS>0;.aADS_AnalogInterface[3];.aOutputDevices[3]</PARAMETERS>
+          <TYPE>1</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Peripheral downlights</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>1</TAG>
+          <PARAMETERS>0;.aADS_AnalogInterface[4];.aOutputDevices[4]</PARAMETERS>
+          <TYPE>1</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Center downlight</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>2</TAG>
+          <PARAMETERS>0;.aADS_Input[27];.aADS_Input[28];.aOutputDevices[18]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Cove</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>3</TAG>
+          <PARAMETERS>0;.aADS_Input[25];.aADS_Input[26];.aOutputDevices[17]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>AV Downlights</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>4</TAG>
+          <PARAMETERS></PARAMETERS>
+          <TYPE>4</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Scenes</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+      </DEVICES>
+      <ZONE_DESCRIPTION>Cinema Room</ZONE_DESCRIPTION>
+    </ZONE>
+    <ZONE Index="3">
+      <ZONE_TAG>3</ZONE_TAG>
+      <ZONE_SERVER>0</ZONE_SERVER>
+      <ZONE_AC_PRM>5.2.205.45.1.1;801;.aOutputDevices[21];.aADS_Input[33];.aADS_Input[34]</ZONE_AC_PRM>
+      <FLOOR>0</FLOOR>
+      <DEVICES>
+        <DEVICE>
+          <TAG>0</TAG>
+          <PARAMETERS>0;.aADS_Input[1];.aADS_Input[2];.aOutputDevices[5]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Downlights</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>1</TAG>
+          <PARAMETERS> 0;.aADS_Input[3];.aADS_Input[4];.aOutputDevices[6]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Cove</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>2</TAG>
+          <PARAMETERS> 0;.aInputDevices[63];.aOutputDevices[5];.aOutputDevices[6]</PARAMETERS>
+          <TYPE>3</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Motion Sensor</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>3</TAG>
+          <PARAMETERS></PARAMETERS>
+          <TYPE>4</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Scenes</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+      </DEVICES>
+      <ZONE_DESCRIPTION>Game Room</ZONE_DESCRIPTION>
+    </ZONE>
+    <ZONE Index="4">
+      <ZONE_TAG>4</ZONE_TAG>
+      <ZONE_SERVER>1</ZONE_SERVER>
+      <ZONE_AC_PRM>5.2.205.45.1.1;801;.aOutputDevices[21];.aADS_Input[33];.aADS_Input[34]</ZONE_AC_PRM>
+      <AUDIO_ZONE_ID>94</AUDIO_ZONE_ID>
+      <FLOOR>0</FLOOR>
+      <DEVICES>
+        <DEVICE>
+          <TAG>0</TAG>
+          <PARAMETERS>0;.aADS_Input[5];.aADS_Input[6];.aOutputDevices[7]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Downlights</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>1</TAG>
+          <PARAMETERS> 0;.aInputDevices[69];.aOutputDevices[7]</PARAMETERS>
+          <TYPE>3</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Motion Sensor</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>2</TAG>
+          <PARAMETERS></PARAMETERS>
+          <TYPE>4</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Scenes</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+      </DEVICES>
+      <ZONE_DESCRIPTION>Gym Room</ZONE_DESCRIPTION>
+    </ZONE>
+    <ZONE Index="5">
+      <ZONE_TAG>5</ZONE_TAG>
+      <ZONE_SERVER>3;2;4;5;6</ZONE_SERVER>
+      <ZONE_AC_PRM>5.2.205.45.1.1;801;.aOutputDevices[23];.aADS_Input[37];.aADS_Input[38]</ZONE_AC_PRM>
+      <FLOOR>0</FLOOR>
+      <DEVICES>
+        <DEVICE>
+          <TAG>0</TAG>
+          <PARAMETERS>0;.aADS_Input[11];.aADS_Input[12];.aOutputDevices[10]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Entrance Downlight</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>1</TAG>
+          <PARAMETERS> 0;.aADS_Input[7];.aADS_Input[8];.aOutputDevices[8]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Toilet</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>2</TAG>
+          <PARAMETERS> 0;.aADS_Input[9];.aADS_Input[10];.aOutputDevices[9]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Right Side Shower</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>3</TAG>
+          <PARAMETERS> 0;.aADS_Input[13];.aADS_Input[14];.aOutputDevices[11]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Left Side Shower</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>4</TAG>
+          <PARAMETERS> 0;.aADS_Input[15];.aADS_Input[16];.aOutputDevices[12]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Changing Room</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>5</TAG>
+          <PARAMETERS> 0;.aInputDevices[66];.aOutputDevices[11]</PARAMETERS>
+          <TYPE>3</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Left Side Shower</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>6</TAG>
+          <PARAMETERS> 0;.aInputDevices[67];.aOutputDevices[9]</PARAMETERS>
+          <TYPE>3</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Right Side Shower</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>7</TAG>
+          <PARAMETERS> 0;.aInputDevices[64];.aOutputDevices[8]</PARAMETERS>
+          <TYPE>3</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Toilet</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>8</TAG>
+          <PARAMETERS> 0;.aInputDevices[65];.aOutputDevices[12]</PARAMETERS>
+          <TYPE>3</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Changing Room</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>9</TAG>
+          <PARAMETERS></PARAMETERS>
+          <TYPE>4</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Scenes</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+      </DEVICES>
+      <ZONE_DESCRIPTION>Gym Bathrooms</ZONE_DESCRIPTION>
+    </ZONE>
+    <ZONE Index="6">
+      <ZONE_TAG>6</ZONE_TAG>
+      <ZONE_SERVER>9;10</ZONE_SERVER>
+      <ZONE_AC_PRM>5.2.205.45.1.1;801;.aOutputDevices[24];.aADS_Input[39];.aADS_Input[40]</ZONE_AC_PRM>
+      <FLOOR>0</FLOOR>
+      <DEVICES>
+        <DEVICE>
+          <TAG>0</TAG>
+          <PARAMETERS>0;.aADS_Input[21];.aADS_Input[22];.aOutputDevices[15]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Staircase Hall</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>1</TAG>
+          <PARAMETERS> 0;.aADS_Input[23];.aADS_Input[24];.aOutputDevices[16]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Staircase Bathroom</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>2</TAG>
+          <PARAMETERS> 0;.aInputDevices[70];.aOutputDevices[15]</PARAMETERS>
+          <TYPE>3</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Staircase Hall</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>3</TAG>
+          <PARAMETERS> 0;.aInputDevices[68];.aOutputDevices[16]</PARAMETERS>
+          <TYPE>3</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Staircase Bathroom</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>4</TAG>
+          <PARAMETERS></PARAMETERS>
+          <TYPE>4</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Scenes</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+      </DEVICES>
+      <ZONE_DESCRIPTION>Staircase Hall</ZONE_DESCRIPTION>
+    </ZONE>
+    <ZONE Index="7">
+      <ZONE_TAG>7</ZONE_TAG>
+      <ZONE_SERVER>13</ZONE_SERVER>
+      <AUDIO_ZONE_ID>104</AUDIO_ZONE_ID>
+      <FLOOR>0</FLOOR>
+      <DEVICES>
+        <DEVICE>
+          <TAG>0</TAG>
+          <PARAMETERS>0;.aADS_Input[29];.aADS_Input[30];.aOutputDevices[19]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Frong Lights</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>1</TAG>
+          <PARAMETERS> 0;.aADS_Input[31];.aADS_Input[32];.aOutputDevices[20]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Side Lights</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>2</TAG>
+          <PARAMETERS></PARAMETERS>
+          <TYPE>4</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Scenes</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+      </DEVICES>
+      <ZONE_DESCRIPTION>Swimming Pool</ZONE_DESCRIPTION>
+    </ZONE>
+    <ZONE Index="8">
+      <ZONE_TAG>8</ZONE_TAG>
+      <ZONE_SERVER>20</ZONE_SERVER>
+      <ZONE_AC_PRM>5.9.150.235.1.1;801;.aOutputDevices[22];.aADS_Input[29];.aADS_Input[30]</ZONE_AC_PRM>
+      <AUDIO_ZONE_ID>96</AUDIO_ZONE_ID>
+      <FLOOR>1</FLOOR>
+      <DEVICES>
+        <DEVICE>
+          <TAG>0</TAG>
+          <PARAMETERS>1;.aADS_AnalogInterface[1];.aOutputDevices[1]</PARAMETERS>
+          <TYPE>1</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Downlight</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>1</TAG>
+          <PARAMETERS>1;.aADS_Input[15];.aADS_Input[16];.aOutputDevices[15]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Cove</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>2</TAG>
+          <PARAMETERS></PARAMETERS>
+          <TYPE>4</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Scenes</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+      </DEVICES>
+      <ZONE_DESCRIPTION>Formal Living</ZONE_DESCRIPTION>
+    </ZONE>
+    <ZONE Index="9">
+      <ZONE_TAG>9</ZONE_TAG>
+      <ZONE_AC_PRM>5.9.150.235.1.1;801;.aOutputDevices[26];.aADS_Input[37];.aADS_Input[38]</ZONE_AC_PRM>
+      <FLOOR>1</FLOOR>
+      <DEVICES>
+        <DEVICE>
+          <TAG>0</TAG>
+          <PARAMETERS>1;.aADS_AnalogInterface[5];.aOutputDevices[5]</PARAMETERS>
+          <TYPE>1</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Downlight</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>1</TAG>
+          <PARAMETERS>1;.aADS_Input[21];.aADS_Input[22];.aOutputDevices[18]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Cove</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>2</TAG>
+          <PARAMETERS></PARAMETERS>
+          <TYPE>4</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Scenes</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+      </DEVICES>
+      <ZONE_DESCRIPTION>Corridor</ZONE_DESCRIPTION>
+    </ZONE>
+    <ZONE Index="10">
+      <ZONE_TAG>10</ZONE_TAG>
+      <ZONE_SERVER>24</ZONE_SERVER>
+      <ZONE_AC_PRM>5.9.150.235.1.1;801;.aOutputDevices[25];.aADS_Input[35];.aADS_Input[36]</ZONE_AC_PRM>
+      <AUDIO_ZONE_ID>95</AUDIO_ZONE_ID>
+      <FLOOR>1</FLOOR>
+      <DEVICES>
+        <DEVICE>
+          <TAG>0</TAG>
+          <PARAMETERS>1;.aADS_AnalogInterface[6];.aOutputDevices[6]</PARAMETERS>
+          <TYPE>1</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Peripheral downlights</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>1</TAG>
+          <PARAMETERS>1;.aADS_AnalogInterface[2];.aOutputDevices[2]</PARAMETERS>
+          <TYPE>1</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Center downlight</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>2</TAG>
+          <PARAMETERS>1;.aADS_Input[1];.aADS_Input[2];.aOutputDevices[8]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Cove</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>3</TAG>
+          <PARAMETERS>1;.aADS_Input[56];.aADS_Input[57];.aADS_Input[58]</PARAMETERS>
+          <TYPE>2</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Curtain Middle</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>4</TAG>
+          <PARAMETERS>1;.aADS_Input[53];.aADS_Input[54];.aADS_Input[55]</PARAMETERS>
+          <TYPE>2</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Curtain Left</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>5</TAG>
+          <PARAMETERS>1;.aADS_Input[50];.aADS_Input[51];.aADS_Input[52]</PARAMETERS>
+          <TYPE>2</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Curtain Right</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>6</TAG>
+          <PARAMETERS></PARAMETERS>
+          <TYPE>4</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Scenes</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+      </DEVICES>
+      <ZONE_DESCRIPTION>Living Room</ZONE_DESCRIPTION>
+    </ZONE>
+    <ZONE Index="11">
+      <ZONE_TAG>11</ZONE_TAG>
+      <ZONE_SERVER>23</ZONE_SERVER>
+      <ZONE_AC_PRM>5.9.150.235.1.1;801;.aOutputDevices[25];.aADS_Input[35];.aADS_Input[36]</ZONE_AC_PRM>
+      <AUDIO_ZONE_ID>106</AUDIO_ZONE_ID>
+      <FLOOR>1</FLOOR>
+      <DEVICES>
+        <DEVICE>
+          <TAG>0</TAG>
+          <PARAMETERS>1;.aADS_AnalogInterface[6];.aOutputDevices[6]</PARAMETERS>
+          <TYPE>1</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Peripheral downlights</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>1</TAG>
+          <PARAMETERS>1;.aADS_AnalogInterface[3];.aOutputDevices[3]</PARAMETERS>
+          <TYPE>1</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Center downlight</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>2</TAG>
+          <PARAMETERS>1;.aADS_Input[1];.aADS_Input[2];.aOutputDevices[8]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Cove</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>3</TAG>
+          <PARAMETERS>1;.aADS_Input[59];.aADS_Input[60];.aADS_Input[61]</PARAMETERS>
+          <TYPE>2</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Curtain</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>4</TAG>
+          <PARAMETERS></PARAMETERS>
+          <TYPE>4</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Scenes</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+      </DEVICES>
+      <ZONE_DESCRIPTION>Show Kitchen</ZONE_DESCRIPTION>
+    </ZONE>
+    <ZONE Index="12">
+      <ZONE_TAG>12</ZONE_TAG>
+      <ZONE_SERVER>15;14</ZONE_SERVER>
+      <ZONE_AC_PRM>5.9.150.235.1.1;801;.aOutputDevices[23];.aADS_Input[31];.aADS_Input[32]</ZONE_AC_PRM>
+      <AUDIO_ZONE_ID>98</AUDIO_ZONE_ID>
+      <FLOOR>1</FLOOR>
+      <DEVICES>
+        <DEVICE>
+          <TAG>0</TAG>
+          <PARAMETERS>1;.aADS_Input[5];.aADS_Input[6];.aOutputDevices[10]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Downlight</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>1</TAG>
+          <PARAMETERS>1;.aADS_Input[7];.aADS_Input[8];.aOutputDevices[11]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Cove</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>2</TAG>
+          <PARAMETERS>1;.aADS_Input[3];.aADS_Input[4];.aOutputDevices[9]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Bathroom</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>3</TAG>
+          <PARAMETERS> 1;.aInputDevices[104];.aOutputDevices[10];.aOutputDevices[11]</PARAMETERS>
+          <TYPE>3</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Office</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>4</TAG>
+          <PARAMETERS> 1;.aInputDevices[102];.aOutputDevices[9]</PARAMETERS>
+          <TYPE>3</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Bathroom</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>5</TAG>
+          <PARAMETERS></PARAMETERS>
+          <TYPE>4</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Scenes</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+      </DEVICES>
+      <ZONE_DESCRIPTION>Office</ZONE_DESCRIPTION>
+    </ZONE>
+    <ZONE Index="13">
+      <ZONE_TAG>13</ZONE_TAG>
+      <ZONE_SERVER>18;19</ZONE_SERVER>
+      <ZONE_AC_PRM>5.9.150.235.1.1;801;.aOutputDevices[24];.aADS_Input[33];.aADS_Input[34]</ZONE_AC_PRM>
+      <AUDIO_ZONE_ID>97</AUDIO_ZONE_ID>
+      <FLOOR>1</FLOOR>
+      <DEVICES>
+        <DEVICE>
+          <TAG>0</TAG>
+          <PARAMETERS>1;.aADS_AnalogInterface[4];.aOutputDevices[4]</PARAMETERS>
+          <TYPE>1</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Downlight</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>1</TAG>
+          <PARAMETERS>1;.aADS_Input[13];.aADS_Input[14];.aOutputDevices[14]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Cove</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>2</TAG>
+          <PARAMETERS>1;.aADS_Input[9];.aADS_Input[10];.aOutputDevices[12]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Bathroom</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>3</TAG>
+          <PARAMETERS> 1;.aInputDevices[106];.aOutputDevices[12]</PARAMETERS>
+          <TYPE>3</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Bathroom</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>4</TAG>
+          <PARAMETERS></PARAMETERS>
+          <TYPE>4</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Scenes</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+      </DEVICES>
+      <ZONE_DESCRIPTION>Guest Room</ZONE_DESCRIPTION>
+    </ZONE>
+    <ZONE Index="14">
+      <ZONE_TAG>14</ZONE_TAG>
+      <ZONE_SERVER>21;22</ZONE_SERVER>
+      <ZONE_AC_PRM>5.9.150.235.1.1;801;.aOutputDevices[25];.aADS_Input[35];.aADS_Input[36]</ZONE_AC_PRM>
+      <FLOOR>1</FLOOR>
+      <DEVICES>
+        <DEVICE>
+          <TAG>0</TAG>
+          <PARAMETERS>1;.aADS_Input[17];.aADS_Input[18];.aOutputDevices[16]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Downlight</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>1</TAG>
+          <PARAMETERS>1;.aADS_Input[19];.aADS_Input[20];.aOutputDevices[17]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Bathroom</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>2</TAG>
+          <PARAMETERS> 1;.aInputDevices[103];.aOutputDevices[17]</PARAMETERS>
+          <TYPE>3</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Bathroom</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>3</TAG>
+          <PARAMETERS></PARAMETERS>
+          <TYPE>4</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Scenes</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+      </DEVICES>
+      <ZONE_DESCRIPTION>Kitchen</ZONE_DESCRIPTION>
+    </ZONE>
+    <ZONE Index="15">
+      <ZONE_TAG>15</ZONE_TAG>
+      <ZONE_SERVER>16;17</ZONE_SERVER>
+      <ZONE_AC_PRM>5.9.150.235.1.1;801;.aOutputDevices[26];.aADS_Input[37];.aADS_Input[38]</ZONE_AC_PRM>
+      <FLOOR>1</FLOOR>
+      <DEVICES>
+        <DEVICE>
+          <TAG>0</TAG>
+          <PARAMETERS>1;.aADS_Input[25];.aADS_Input[26];.aOutputDevices[20]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Marble</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>1</TAG>
+          <PARAMETERS>1;.aADS_Input[11];.aADS_Input[12];.aOutputDevices[13]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Bathroom</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>2</TAG>
+          <PARAMETERS>2;.aADS_Input[60];.aADS_Input[61];.aOutputDevices[62]</PARAMETERS>
+          <TYPE>2</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Front Curtains</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>3</TAG>
+          <PARAMETERS>2;.aADS_Input[57];.aADS_Input[58];.aOutputDevices[59]</PARAMETERS>
+          <TYPE>2</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Main Door</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>4</TAG>
+          <PARAMETERS>2;.aADS_Input[63];.aADS_Input[64];.aOutputDevices[65]</PARAMETERS>
+          <TYPE>2</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Window Curtain</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>5</TAG>
+          <PARAMETERS> 1;.aInputDevices[105];.aOutputDevices[13]</PARAMETERS>
+          <TYPE>3</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Bathroom</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>6</TAG>
+          <PARAMETERS></PARAMETERS>
+          <TYPE>4</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Scenes</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+      </DEVICES>
+      <ZONE_DESCRIPTION>Entrance</ZONE_DESCRIPTION>
+    </ZONE>
+    <ZONE Index="16">
+      <ZONE_TAG>16</ZONE_TAG>
+      <ZONE_SERVER>25</ZONE_SERVER>
+      <AUDIO_ZONE_ID>105</AUDIO_ZONE_ID>
+      <FLOOR>1</FLOOR>
+      <DEVICES>
+        <DEVICE>
+          <TAG>0</TAG>
+          <PARAMETERS>1;.aADS_Input[23];.aADS_Input[24];.aOutputDevices[19]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Frong Lights</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>1</TAG>
+          <PARAMETERS>1;.aADS_Input[27];.aADS_Input[28];.aOutputDevices[21]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Side Lights</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>2</TAG>
+          <PARAMETERS></PARAMETERS>
+          <TYPE>4</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Scenes</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+      </DEVICES>
+      <ZONE_DESCRIPTION>Outdoor</ZONE_DESCRIPTION>
+    </ZONE>
+    <ZONE Index="17">
+      <ZONE_TAG>17</ZONE_TAG>
+      <ZONE_SERVER>31;32</ZONE_SERVER>
+      <ZONE_AC_PRM>5.9.155.49.1.1;801;.aOutputDevices[29];.aADS_Input[41];.aADS_Input[42]</ZONE_AC_PRM>
+      <AUDIO_ZONE_ID>108</AUDIO_ZONE_ID>
+      <FLOOR>2</FLOOR>
+      <DEVICES>
+        <DEVICE>
+          <TAG>0</TAG>
+          <PARAMETERS>2;.aADS_AnalogInterface[4];.aOutputDevices[4]</PARAMETERS>
+          <TYPE>1</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Downlight</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>1</TAG>
+          <PARAMETERS>2;.aADS_Input[21];.aADS_Input[22];.aOutputDevices[19]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Cove</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>2</TAG>
+          <PARAMETERS>2;.aADS_Input[19];.aADS_Input[20];.aOutputDevices[18]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Family Wardrobe</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>3</TAG>
+          <PARAMETERS></PARAMETERS>
+          <TYPE>4</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Scenes</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+      </DEVICES>
+      <ZONE_DESCRIPTION>Family Room</ZONE_DESCRIPTION>
+    </ZONE>
+    <ZONE Index="18">
+      <ZONE_TAG>18</ZONE_TAG>
+      <ZONE_SERVER>41</ZONE_SERVER>
+      <ZONE_AC_PRM>5.9.150.235.1.1;801;.aOutputDevices[26];.aADS_Input[37];.aADS_Input[38]</ZONE_AC_PRM>
+      <FLOOR>2</FLOOR>
+      <DEVICES>
+        <DEVICE>
+          <TAG>0</TAG>
+          <PARAMETERS>2;.aADS_AnalogInterface[3];.aOutputDevices[3]</PARAMETERS>
+          <TYPE>1</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Downlight</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>1</TAG>
+          <PARAMETERS>1;.aADS_AnalogInterface[7];.aOutputDevices[7]</PARAMETERS>
+          <TYPE>1</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Open below downlights</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>2</TAG>
+          <PARAMETERS>2;.aADS_Input[5];.aADS_Input[6];.aOutputDevices[11]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Cove</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>3</TAG>
+          <PARAMETERS>2;.aADS_Input[54];.aADS_Input[55];.aADS_Input[56]</PARAMETERS>
+          <TYPE>2</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Front Right Side</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>4</TAG>
+          <PARAMETERS>2;.aADS_Input[48];.aADS_Input[49];.aADS_Input[50]</PARAMETERS>
+          <TYPE>2</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Front Left Side</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>5</TAG>
+          <PARAMETERS> 2;.aADS_Input[51];.aADS_Input[52];.aADS_Input[53]</PARAMETERS>
+          <TYPE>2</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Back Right Side</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>6</TAG>
+          <PARAMETERS> 2;.aADS_Input[45];.aADS_Input[46];.aADS_Input[47]</PARAMETERS>
+          <TYPE>2</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Back Left Side</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>7</TAG>
+          <PARAMETERS></PARAMETERS>
+          <TYPE>4</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Scenes</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+      </DEVICES>
+      <ZONE_DESCRIPTION>Corridor</ZONE_DESCRIPTION>
+    </ZONE>
+    <ZONE Index="19">
+      <ZONE_TAG>19</ZONE_TAG>
+      <ZONE_SERVER>30</ZONE_SERVER>
+      <ZONE_AC_PRM>5.9.155.49.1.1;801;.aOutputDevices[25];.aADS_Input[33];.aADS_Input[34]</ZONE_AC_PRM>
+      <AUDIO_ZONE_ID>99</AUDIO_ZONE_ID>
+      <FLOOR>2</FLOOR>
+      <DEVICES>
+        <DEVICE>
+          <TAG>0</TAG>
+          <PARAMETERS>2;.aADS_AnalogInterface[5];.aOutputDevices[5]</PARAMETERS>
+          <TYPE>1</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Downlight</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>1</TAG>
+          <PARAMETERS>2;.aADS_Input[23];.aADS_Input[24];.aOutputDevices[20]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Cove</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>2</TAG>
+          <PARAMETERS>2;.aADS_Input[66];.aADS_Input[67];.aADS_Input[68]</PARAMETERS>
+          <TYPE>2</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Curtain</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>3</TAG>
+          <PARAMETERS></PARAMETERS>
+          <TYPE>4</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Scenes</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+      </DEVICES>
+      <ZONE_DESCRIPTION>Master Room</ZONE_DESCRIPTION>
+    </ZONE>
+    <ZONE Index="20">
+      <ZONE_TAG>20</ZONE_TAG>
+      <ZONE_SERVER>29</ZONE_SERVER>
+      <ZONE_AC_PRM>5.9.155.49.1.1;801;.aOutputDevices[25];.aADS_Input[33];.aADS_Input[34]</ZONE_AC_PRM>
+      <FLOOR>2</FLOOR>
+      <DEVICES>
+        <DEVICE>
+          <TAG>0</TAG>
+          <PARAMETERS>2;.aADS_Input[25];.aADS_Input[26];.aOutputDevices[21]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Downlight</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>1</TAG>
+          <PARAMETERS> 2;.aInputDevices[111];.aOutputDevices[21]</PARAMETERS>
+          <TYPE>3</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Motion Sensor</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>2</TAG>
+          <PARAMETERS></PARAMETERS>
+          <TYPE>4</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Scenes</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+      </DEVICES>
+      <ZONE_DESCRIPTION>Master Dressroom</ZONE_DESCRIPTION>
+    </ZONE>
+    <ZONE Index="21">
+      <ZONE_TAG>21</ZONE_TAG>
+      <ZONE_SERVER>28;27;26</ZONE_SERVER>
+      <ZONE_AC_PRM>5.9.155.49.1.1;801;.aOutputDevices[25];.aADS_Input[33];.aADS_Input[34]</ZONE_AC_PRM>
+      <FLOOR>2</FLOOR>
+      <DEVICES>
+        <DEVICE>
+          <TAG>0</TAG>
+          <PARAMETERS>2;.aADS_AnalogInterface[8];.aOutputDevices[8]</PARAMETERS>
+          <TYPE>1</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Peripheral downlights</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>1</TAG>
+          <PARAMETERS>2;.aADS_Input[29];.aADS_Input[30];.aOutputDevices[23]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Bathroom Right Side</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>2</TAG>
+          <PARAMETERS>2;.aADS_Input[31];.aADS_Input[32];.aOutputDevices[24]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Bathroom Left Side</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>3</TAG>
+          <PARAMETERS> 2;.aInputDevices[110];.aOutputDevices[23]</PARAMETERS>
+          <TYPE>3</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Bathroom Right Side</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>4</TAG>
+          <PARAMETERS> 2;.aInputDevices[109];.aOutputDevices[24]</PARAMETERS>
+          <TYPE>3</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Bathroom Left Side</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>5</TAG>
+          <PARAMETERS></PARAMETERS>
+          <TYPE>4</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Scenes</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+      </DEVICES>
+      <ZONE_DESCRIPTION>Master bathroom</ZONE_DESCRIPTION>
+    </ZONE>
+    <ZONE Index="22">
+      <ZONE_TAG>22</ZONE_TAG>
+      <ZONE_SERVER>34;33</ZONE_SERVER>
+      <ZONE_AC_PRM>5.9.155.49.1.1;801;.aOutputDevices[28];.aADS_Input[39];.aADS_Input[40]</ZONE_AC_PRM>
+      <AUDIO_ZONE_ID>100</AUDIO_ZONE_ID>
+      <FLOOR>2</FLOOR>
+      <DEVICES>
+        <DEVICE>
+          <TAG>0</TAG>
+          <PARAMETERS>2;.aADS_AnalogInterface[7];.aOutputDevices[7]</PARAMETERS>
+          <TYPE>1</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Downlight</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>1</TAG>
+          <PARAMETERS>2;.aADS_Input[15];.aADS_Input[16];.aOutputDevices[16]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Cove</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>2</TAG>
+          <PARAMETERS>2;.aADS_Input[17];.aADS_Input[18];.aOutputDevices[17]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Bathroom</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>3</TAG>
+          <PARAMETERS> 2;.aInputDevices[112];.aOutputDevices[17]</PARAMETERS>
+          <TYPE>3</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Bathroom</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>4</TAG>
+          <PARAMETERS></PARAMETERS>
+          <TYPE>4</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Scenes</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+      </DEVICES>
+      <ZONE_DESCRIPTION>Bed Room 2</ZONE_DESCRIPTION>
+    </ZONE>
+    <ZONE Index="23">
+      <ZONE_TAG>23</ZONE_TAG>
+      <ZONE_SERVER>35;36</ZONE_SERVER>
+      <ZONE_AC_PRM>5.9.155.49.1.1;801;.aOutputDevices[28];.aADS_Input[39];.aADS_Input[40]</ZONE_AC_PRM>
+      <AUDIO_ZONE_ID>101</AUDIO_ZONE_ID>
+      <FLOOR>2</FLOOR>
+      <DEVICES>
+        <DEVICE>
+          <TAG>0</TAG>
+          <PARAMETERS>2;.aADS_AnalogInterface[6];.aOutputDevices[6]</PARAMETERS>
+          <TYPE>1</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Downlight</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>1</TAG>
+          <PARAMETERS>2;.aADS_Input[13];.aADS_Input[14];.aOutputDevices[15]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Cove</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>2</TAG>
+          <PARAMETERS>2;.aADS_Input[11];.aADS_Input[12];.aOutputDevices[14]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Bathroom</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>3</TAG>
+          <PARAMETERS> 2;.aInputDevices[113];.aOutputDevices[14]</PARAMETERS>
+          <TYPE>3</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Bathroom</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>4</TAG>
+          <PARAMETERS></PARAMETERS>
+          <TYPE>4</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Scenes</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+      </DEVICES>
+      <ZONE_DESCRIPTION>Bed Room 3</ZONE_DESCRIPTION>
+    </ZONE>
+    <ZONE Index="24">
+      <ZONE_TAG>24</ZONE_TAG>
+      <ZONE_SERVER>38;37</ZONE_SERVER>
+      <ZONE_AC_PRM>5.9.155.49.1.1;801;.aOutputDevices[27];.aADS_Input[37];.aADS_Input[38]</ZONE_AC_PRM>
+      <AUDIO_ZONE_ID>102</AUDIO_ZONE_ID>
+      <FLOOR>2</FLOOR>
+      <DEVICES>
+        <DEVICE>
+          <TAG>0</TAG>
+          <PARAMETERS>2;.aADS_AnalogInterface[2];.aOutputDevices[2]</PARAMETERS>
+          <TYPE>1</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Downlight</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>1</TAG>
+          <PARAMETERS>2;.aADS_Input[7];.aADS_Input[8];.aOutputDevices[12]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Cove</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>2</TAG>
+          <PARAMETERS>2;.aADS_Input[9];.aADS_Input[10];.aOutputDevices[13]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Bathroom</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>3</TAG>
+          <PARAMETERS> 2;.aInputDevices[114];.aOutputDevices[13]</PARAMETERS>
+          <TYPE>3</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Bathroom</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>4</TAG>
+          <PARAMETERS></PARAMETERS>
+          <TYPE>4</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Scenes</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+      </DEVICES>
+      <ZONE_DESCRIPTION>Bed Room 4</ZONE_DESCRIPTION>
+    </ZONE>
+    <ZONE Index="25">
+      <ZONE_TAG>25</ZONE_TAG>
+      <ZONE_SERVER>39;40</ZONE_SERVER>
+      <ZONE_AC_PRM>5.9.155.49.1.1;801;.aOutputDevices[26];.aADS_Input[35];.aADS_Input[36]</ZONE_AC_PRM>
+      <AUDIO_ZONE_ID>103</AUDIO_ZONE_ID>
+      <FLOOR>2</FLOOR>
+      <DEVICES>
+        <DEVICE>
+          <TAG>0</TAG>
+          <PARAMETERS>2;.aADS_AnalogInterface[1];.aOutputDevices[1]</PARAMETERS>
+          <TYPE>1</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Downlight</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>1</TAG>
+          <PARAMETERS>2;.aADS_Input[3];.aADS_Input[4];.aOutputDevices[10]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Cove</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>2</TAG>
+          <PARAMETERS>2;.aADS_Input[1];.aADS_Input[2];.aOutputDevices[9]</PARAMETERS>
+          <TYPE>0</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Bathroom</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>3</TAG>
+          <PARAMETERS> 2;.aInputDevices[115];.aOutputDevices[9]</PARAMETERS>
+          <TYPE>3</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Bathroom</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+        <DEVICE>
+          <TAG>4</TAG>
+          <PARAMETERS></PARAMETERS>
+          <TYPE>4</TYPE>
+          <VISIBLE>TRUE</VISIBLE>
+          <DESCRIPTION>Scenes</DESCRIPTION>
+          <VALUE>0</VALUE>
+        </DEVICE>
+      </DEVICES>
+      <ZONE_DESCRIPTION>Bed Room 5</ZONE_DESCRIPTION>
+    </ZONE>
+    <ZONE Index="26">
+      <ZONE_TAG>26</ZONE_TAG>
+      <ZONE_SERVER>34;33</ZONE_SERVER>
+      <ZONE_AC_PRM>5.9.155.49.1.1;801;.aOutputDevices[28];.aADS_Input[39];.aADS_Input[40]</ZONE_AC_PRM>
+      <AUDIO_ZONE_ID>100</AUDIO_ZONE_ID>
+      <FLOOR>2</FLOOR>
+      <ZONE_DESCRIPTION>Bed Room 2 / 3</ZONE_DESCRIPTION>
+    </ZONE>
+    <ZONE Index="27">
+      <ZONE_TAG>27</ZONE_TAG>
+      <ZONE_SERVER>34;33</ZONE_SERVER>
+      <ZONE_AC_PRM>5.9.155.49.1.1;801;.aOutputDevices[30];.aADS_Input[43];.aADS_Input[44]</ZONE_AC_PRM>
+      <AUDIO_ZONE_ID>100</AUDIO_ZONE_ID>
+      <FLOOR>2</FLOOR>
+      <ZONE_DESCRIPTION>Staircase</ZONE_DESCRIPTION>
+    </ZONE>
+  </ZONES>
+</DEVICES>
